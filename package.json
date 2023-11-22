@@ -1,0 +1,32 @@
+{
+  "name": "team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "sucrase-node src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.3.3",
+    "ulid": "^2.3.0",
+    "request": "^2.88.2",
+    "sucrase": "^3.20.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+
+}
